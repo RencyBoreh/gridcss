@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid1{
+    
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    column-gap: 16px;
+    row-gap: 40px;
+    
+}
+.img1{
+    width: 100%;
+}
+.div1{
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    
+ 
+}
+.prof1{
+    border-radius: 40px;
+
+
+}
+.par{
+    
+    margin-top: 3px;
+    font-family: arial;
+}
+.p1{
+   
+    font-weight: bold;
+    margin-bottom: 15px;
+    line-height: 15px;
+}
+.p2{
+    color: grey;
+    line-height: 7px;
+    margin-bottom: 5px;
+}
+.p3{
+    color: grey;
+    line-height: 15px;
+    margin-bottom: 10px;
+}
